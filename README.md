@@ -1,6 +1,6 @@
 <div align="center">
 
-# PIXBIT
+<img src="docs/banner.png" alt="PIXBIT" width="100%"/>
 
 ### Don't just play games. Build them.
 
@@ -12,11 +12,16 @@
 ![Status](https://img.shields.io/badge/status-hardware%20v1-f59e0b?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-22c55e?style=for-the-badge)
 
-<img src="images/pixbit-hero.png" width="85%" alt="PIXBIT handheld console"/>
-
 </div>
 
 ---
+
+## 🔥 Why it hits different
+
+- 🎮 **A real console you build yourself:** solder the board, flash the firmware, play.
+- 🧠 **Learn embedded by making games:** buttons, display, audio and SD card, all yours to program.
+- 🔓 **Fully open:** schematic, PCB and firmware live right here.
+- 🏫 **Made for classrooms and clubs:** the first embedded project people actually finish.
 
 ## Why PIXBIT
 
@@ -73,3 +78,17 @@ PIXBIT is developed in the open. Ideas, firmware, games and lesson plans are all
 ## License
 
 [MIT](LICENSE) © Prateek Sarkar
+
+---
+
+<div align="center">
+
+### If this made you go *"wait, that's sick"* 👀
+
+**Drop a ⭐ so more builders find it, and share it with someone who'd build one.**
+
+[![Share on X](https://img.shields.io/badge/share%20on-X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/intent/tweet?text=An%20open-source%20ESP32%20handheld%20you%20solder%2C%20code%20and%20play%20%F0%9F%8E%AE&url=https%3A%2F%2Fgithub.com%2FPrateek-elec%2FPIXBIT)
+[![Share on LinkedIn](https://img.shields.io/badge/share%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FPrateek-elec%2FPIXBIT)
+[![Follow](https://img.shields.io/badge/follow-@Prateek--elec-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Prateek-elec)
+
+</div>
