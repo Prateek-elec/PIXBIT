@@ -1,84 +1,75 @@
+<div align="center">
+
 # PIXBIT
 
-PIXBIT is an open-source handheld gaming and STEM development platform built to make learning embedded systems, robotics, electronics, and programming more interactive, practical, and accessible.
+### Don't just play games. Build them.
 
-Modern STEM education is highly fragmented — students often learn coding, electronics, robotics, and hardware design separately without understanding how they work together in real-world systems.
+**An open-source ESP32 handheld game console made for learning: solder it, code it, play it, then build your own games, robots and gadgets on the same hardware.**
 
-PIXBIT aims to solve that problem by creating a unified learning ecosystem where users can:
+![ESP32](https://img.shields.io/badge/ESP32-WROOM-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Open hardware](https://img.shields.io/badge/open-hardware-0ea5e9?style=for-the-badge)
+![STEM](https://img.shields.io/badge/STEM-education-8b5cf6?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-hardware%20v1-f59e0b?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-22c55e?style=for-the-badge)
 
-* Learn embedded programming through games and interactive applications
-* Explore real electronics and hardware interfaces
-* Develop robotics projects using external modules and sensors
-* Understand PCB design, firmware, and system integration
-* Build their own custom projects on open hardware
+<img src="images/pixbit-hero.png" width="85%" alt="PIXBIT handheld console"/>
 
-The platform combines:
+</div>
 
-* A custom embedded hardware system
-* Open-source firmware
-* Expandable hardware interfaces
-* Educational development tools
-* Interactive gaming-inspired learning
+---
 
-PIXBIT is designed for:
+## Why PIXBIT
 
-* Students
-* Makers
-* Robotics enthusiasts
-* Embedded developers
-* Educators
-* Open-source hardware communities
+Students usually learn coding, electronics and PCB design in separate classes and never see how they fit together. PIXBIT puts all of it in one device people actually want to use: a game console. You learn embedded programming by writing games, electronics by reading the board you're holding, and hardware design by modifying the open schematic.
 
-## Features
+**Built for** students, makers, educators, robotics clubs and anyone who wants their first real embedded project to be fun.
 
-* Open-source hardware and firmware
-* Custom PCB design
-* Handheld embedded gaming platform
-* GPIO and peripheral expansion
-* STEM-focused educational ecosystem
-* Game-based learning approach
-* Modular architecture for experimentation
-* Community-driven development
+## Hardware (v1)
 
-## Planned Hardware Features
+<table>
+<tr>
+<td width="50%"><img src="images/pcb-3d-render.png" alt="PIXBIT PCB 3D render"/><br/><sub>PCB 3D render</sub></td>
+<td width="50%"><img src="images/pcb-layout.png" alt="PIXBIT PCB layout, 160 × 75 mm"/><br/><sub>Layout: 160 × 75 mm, 2 layers</sub></td>
+</tr>
+</table>
 
-* High-performance microcontroller platform
-* Display interface
-* Battery-powered portable operation
-* USB-C connectivity
-* Expandable IO support
-* Sensor integration
-* Audio support
-* Wireless communication capabilities
+- **ESP32 module** with Wi-Fi + Bluetooth, for multiplayer and wireless projects
+- **Color display** via FPC connector
+- **D-pad + 2 action buttons**, plus 2 menu buttons
+- **USB-C** for charging and programming
+- **Battery-powered** with a power switch
+- **microSD slot** for games and assets
+- **Speaker** for audio
+- **Expansion connector** for sensors and modules
+- Status LEDs and a reset button
 
-## Repository Structure
+Full schematic: [`HARDWARE/pixbit-schematic-v1.pdf`](HARDWARE/pixbit-schematic-v1.pdf)
+
+## Repository layout
 
 ```text
-HARDWARE/     → PCB files, schematics, CAD, Gerbers
-FIRMWARE/     → Embedded source code and drivers
-SOFTWARE/     → Desktop tools and utilities
-DOCS/         → Documentation and tutorials
-IMAGES/       → Renders, photos, and media assets
+HARDWARE/   Schematic and hardware notes
+FIRMWARE/   Firmware (in progress)
+images/     Renders used in this README
 ```
 
-## Vision
+## Roadmap
 
-PIXBIT is not just a gaming device.
+- [x] Schematic v1
+- [x] PCB layout v1
+- [ ] Gerbers + BOM for ordering
+- [ ] Bring-up firmware: display, buttons, audio, SD card
+- [ ] Starter game library + "write your first game" tutorial
+- [ ] Lesson plans for classrooms
 
-It is an attempt to build a modern open-source STEM ecosystem where learning electronics and programming feels creative, hands-on, and exciting instead of theoretical and disconnected.
+## Get involved
 
-We believe students learn best when they can:
+PIXBIT is developed in the open. Ideas, firmware, games and lesson plans are all welcome:
 
-* Build
-* Break
-* Modify
-* Experiment
-* Share
+- ⭐ **Star the repo** to follow progress
+- 💡 [Open an issue](https://github.com/Prateek-elec/PIXBIT/issues) with a feature idea or a game you'd build
+- 🔧 Send a pull request
 
-Everything in PIXBIT is being developed openly so the community can learn, contribute, and innovate together.
+## License
 
-## Open Source
-
-This project is fully open source and community driven.
-
-Contributions, suggestions, hardware modifications, firmware improvements, and educational ideas are always welcome.
+[MIT](LICENSE) © Prateek Sarkar
