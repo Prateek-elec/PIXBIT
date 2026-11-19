@@ -16,7 +16,7 @@
 
 ---
 
-## 🔥 Why it hits different
+## Highlights
 
 - 🎮 **A real console you build yourself:** solder the board, flash the firmware, play.
 - 🧠 **Learn embedded by making games:** buttons, display, audio and SD card, all yours to program.
@@ -83,7 +83,7 @@ PIXBIT is developed in the open. Ideas, firmware, games and lesson plans are all
 
 <div align="center">
 
-### If this made you go *"wait, that's sick"* 👀
+### Found this useful?
 
 **Drop a ⭐ so more builders find it, and share it with someone who'd build one.**
 
